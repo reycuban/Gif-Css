@@ -1,0 +1,46 @@
+body {
+  background-color: #2c2c54;
+}
+
+h1 {
+  color:#f5f6fa;
+  font-size: 100px;
+}
+h3 {
+  color:#eccc68;
+  text-align: center;
+}
+
+img {
+
+  border-radius: 8px;
+  border: 1px inset #eccc68;
+  padding: 5px;
+  transition: 0.2s ease-in;
+
+}
+img:hover {
+  box-shadow: 0 0 4px 1px rgba(236, 204, 104,1.0);
+  border-top-left-radius: 50px;
+}
+
+
+  /*********************CLASSESS******************/
+
+  .wrapper {
+    max-width: 70%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center
+  }
+
+
+
+
+/****************ID SELECTORS*************/
+
+#header {
+  font-family: monospace;
+  text-align: center;
+}
